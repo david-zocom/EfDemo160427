@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Demo1</h2>
+<p>Antalet rader: @ViewBag.Count</p>
+<ul>
+    @foreach(var x in ViewBag.Lista)
+    {
+        <li>@x</li>
+    }
+</ul>
